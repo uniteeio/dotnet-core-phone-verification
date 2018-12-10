@@ -72,4 +72,4 @@ public async Task<ActionResult> VerifyCode()
 }
 ```
 
-This method will verified the provided code regarding the provided phone number.
+This method will verify the provided code according to the provided phone number.
