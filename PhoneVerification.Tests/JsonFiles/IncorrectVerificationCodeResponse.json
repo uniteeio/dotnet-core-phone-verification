@@ -1,0 +1,8 @@
+{
+  "error_code": "60022",
+  "message": "Verification code is incorrect",
+  "errors": {
+    "message": "Verification code is incorrect"
+  },
+  "success": false
+}
