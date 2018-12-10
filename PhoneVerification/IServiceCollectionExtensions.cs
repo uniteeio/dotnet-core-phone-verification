@@ -15,7 +15,7 @@ namespace PhoneVerification
             IConfiguration configuration)
         {
             services.AddOptions();
-            services.Configure<PhoneVerificationClient>(configuration.GetSection(Identifier));
+            services.Configure<PhoneVerificationOptions>(configuration.GetSection(Identifier));
             
             services.AddHttpClient(Identifier);
             
